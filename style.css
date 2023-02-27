@@ -23,7 +23,7 @@ nav{
     border-radius: 15px;
     border: 2px solid green;
     background-color: green;
-    
+    z-index: 1;
 }
 .messageImg{
     width: 5vw;
@@ -259,7 +259,7 @@ h1{
     height: 5vh;
     display: flex;
     justify-content: space-between;
-    
+     z-index: 2;
 }
 
 input[type='checkbox'] {
@@ -270,6 +270,7 @@ input[type='checkbox'] {
     border-radius: 50px;
     border: 1px solid #9c9999;
     padding: 10px;
+   
     }
   input[type='checkbox']:checked{
    border:2px solid gray;
