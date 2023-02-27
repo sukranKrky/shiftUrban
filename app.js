@@ -148,6 +148,7 @@ const displayProducts= (filterProducts)=>{
         (product)=>
         `
         <div class="product">
+        <label class="new">NEW</label>
         <img src="${product.img}" alt="" class="productImg">
         <span class="name">${product.name}</span>
         <span class="priceText"> $ ${product.price}</span>

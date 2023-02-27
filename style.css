@@ -248,6 +248,22 @@ h1{
     object-fit: contain;
 
 }
+.new{
+    position: relative;
+    top: 70px;
+    right: 90px;
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
 .name{
     font-weight: 300;
 }
@@ -462,6 +478,7 @@ li{
     
     .product{
         width: 380px;
+        padding: 10px;
     }
     .productImg{
         width: 300px;
