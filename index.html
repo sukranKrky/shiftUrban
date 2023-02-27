@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200&family=Quicksand:wght@300&family=Red+Hat+Display&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>shift Urban</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="message">
+        <img src="./img/message.png" alt="" class="messageImg">
+    </div>
+    <nav id="navbar">
+        <div class="navItem">
+            <img src="./img/logo.png" alt=""  class="logo">
+        </div>
+        <div class="navItem">
+            <div class="navp">
+                <a href="#container">
+                    <p id="p" class="shop">SHOP</p>
+                </a>
+                <a href="#contectleft">
+                <p id="p" class="contact">CONTACT</p>
+                </a>
+                <input type="text" placeholder="SEARCH..." class="search">
+                <span id="searchIcon"class="material-symbols-outlined">
+                search
+            </span>
+            </div>
+           
+            <div class="navright">
+                <span class="material-symbols-outlined">
+                    account_circle
+                </span>
+                <span class="user">Log In</span>
+                
+            </div>
+            <div class="cart">
+             <span class="material-symbols-outlined">
+                shopping_bag
+             </span>
+             <label class="countcart">0</label>
+            </div>
+           
+           
+        </div>
+        
+    </nav>
+    <div class="bgMedia">
+        <img src="./img/bg.png" class="bgImg">
+        <div class="Media">
+            <h1 class="mediaTitle">ALWASE BE ORİGİNAL!</h1>
+             <div class="shop">    
+                <a href="#container">  
+                    <button class="shopAll">SHOP NOW</button>
+               </a> 
+             </div>
+        </div>
+    </div>
+    <div class="newArrivals">
+        <div class="newLeft">
+            <h1 class="newTitle">NEW ARRIVALS </h1>
+            <div class="newlBtn"> 
+            <a href="#container">  
+                 <button class="shopAll">SHOP NOW</button>
+            </a> 
+           </div>
+        </div>
+        <div class="newRight">
+            <img class="rigtImg" src="https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+    </div>
+    <div class="container" id="container">
+        <div class="leftMenu">
+            <input type="text" placeholder="Search..." class="categorySearch">
+            <h1>Categories</h1>
+            <div class="cats">
+            </div>
+             <h1>Color</h1>
+                <div class="colors">
+                    <input type="checkbox" id="col" class="black" value="black">
+                    <input type="checkbox" id="col" class="white" value="white">
+                    <input type="checkbox" id="col" class="red" value="red" >
+                    <input type="checkbox" id="col" class="blue"value="blue">
+                    <input type="checkbox" id="col" class="brown"value="brown">
+                    <input type="checkbox" id="col" class="green"value="green">
+                    <input type="checkbox" id="col" class="gray"value="gray">
+                    <input type="checkbox" id="col" class="gold"value="gold">
+
+
+                    
+                </div>
+            <h1>Maksimum Price</h1>
+            <div class="price">
+                <input type="range" class="priceRange">
+                <span class="priceValue">$ 40</span>
+            </div>
+          
+        </div>
+        <div class="content">
+                <div class="products">
+                
+                </div>
+        </div>
+    </div>
+    <div class="contect">
+        <div id="contectleft" class="contectleft">
+            <ul>
+                <li>Shop</li>
+                <li>Stockists</li>
+                <li>Blog</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+            <ul>
+                <li>FAQ</li>
+                <li>Shipping & Returns</li>
+                <li>Store Policy</li>
+                <li>Payment Methods </li>
+
+            </ul>
+
+        </div>
+        <div class="contectRight">
+            
+                <p class="contectTitle">Enter your email here *</p>
+                <input type="email" placeholder="your@gmail.com"class="email">
+                <button class="submit">SUBSCRIBE</button>
+        </div>
+
+    </div>
+    <div class="footer">
+        <P>© 2035 by siftUrban. Powered and secured by siftUrban.</P>
+        
+    </div>
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>
